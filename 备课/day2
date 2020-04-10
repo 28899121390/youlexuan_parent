@@ -1,0 +1,33 @@
+第一节课
+一.使用小技巧  zk和tomcat的开机自启动
+1.编辑配置文件
+vi /etc/rc.d/rc.local
+
+source  /etc/profile
+/usr/local/zookeeper/bin/zkServer.sh start
+/usr/local/zookeeper/bin/startup.sh
+2.赋予执行权限
+chmod +x /etc/rc.d/rc.local
+3.重启
+reboot
+查看端口状态
+4.netstat -antp|grep 2181
+
+二.配置静态ip
+1.修改网卡的配置信息
+BOOTPROTO=static
+IPADDR=192.168.74.46
+NETMASK=255.255.0
+GATEWAY="192.168.188.2"
+DNS1="114.114.114.114"
+2.重启网卡
+
+3.查看ip
+
+三.angularJS的引言和特点
+
+
+
+
+
+

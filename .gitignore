@@ -1,0 +1,15 @@
+# Project exclude paths
+/youlexuan_common/target/
+/youlexuan_content_interface/target/
+/youlexuan_content_service/target/
+/youlexuan_dao/target/
+/youlexuan_manager_web/target/
+/youlexuan_pojo/target/
+/youlexuan_portal_web/target/
+/youlexuan_search_interface/target/
+/youlexuan_search_service/target/
+/youlexuan_search_web/target/
+/youlexuan_sellergoods_interface/target/
+/youlexuan_sellergoods_service/target/
+/youlexuan_shop_web/target/
+/youlexuan_solr_util/target/
